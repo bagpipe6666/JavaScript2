@@ -23,3 +23,12 @@ for (let name of names) {
 }
 
 // do while loop 
+
+// เขียนไม่ขึ้น
+// do {
+//     let index = 0;
+//     (index < names.length)
+//         const name = names [index];
+//         console.log(i);
+//         i++;
+// } while (i<3);

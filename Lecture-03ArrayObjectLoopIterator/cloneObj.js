@@ -3,13 +3,15 @@
 //
 
 const obj1 = {
-    person : "Nawin" ,
+    person : "bump" ,
     weight : 100
 }
 
 //const obj2 = obj1 ;
-// const obj2 = Object.assign({},obj1);
-const obj2 = {... obj1};
-obj2.weight =75;
+const obj2 = Object.assign({},obj1);
+// const obj2 = {... obj1};
+
+
+obj2.weight =116;
 console.log(obj1);
 console.log(obj2);
