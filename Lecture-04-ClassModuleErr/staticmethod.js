@@ -13,13 +13,13 @@ class dog {
 }
 const myDog = new dog("Buster");
 // ** Call method by Object myDog
-// myDog.introduce();
+myDog.introduce();
 
 // !! static method เรียกผ่าน object ไม่ได้
 // myDog.bark()
 
 // ** Call static method
-// dog.bark()
+dog.bark()
 
 // !! ใช้ไม่ได้เนื่องจาก introduce ไม่ใช่ Static Method 
 // dog.introduce()

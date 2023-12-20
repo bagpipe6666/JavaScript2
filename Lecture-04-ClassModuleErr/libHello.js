@@ -1,11 +1,11 @@
 // Libhello.js
 const person = {
-    name: 'Nawin',
-    weight: 75
+    name: 'bump',
+    weight: 116
 }
 
 function sayHello() {
-    console.log("Hello World!");
+    console.log("Hello js!");
 }
 
 function cube(x) {
@@ -13,6 +13,7 @@ function cube(x) {
 }
 
 const add = (a, b) => a + b;
+
 const Status = true;
 
 module.exports = { person, sayHello, cube, add, Status }
