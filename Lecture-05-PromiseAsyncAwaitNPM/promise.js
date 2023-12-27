@@ -8,7 +8,7 @@ console.log("Start");
 promiseTimeout(2000)
     .then (() => { 
         console.log("Done!!");
-        return promiseTimeout(5000);
+        return promiseTimeout(1000);
     })
     .then (() => { 
         console.log("Also done!");

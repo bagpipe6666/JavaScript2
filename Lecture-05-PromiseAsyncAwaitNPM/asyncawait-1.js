@@ -1,6 +1,6 @@
 async function promiseTimeout(ms) {
 
-    await console.log("Task 1");    
+    // await console.log("Task 1");    
 
     return new Promise ((resolve, reject) => {
         setTimeout(resolve, ms);
@@ -14,5 +14,7 @@ async function run(){
     await promiseTimeout(2000);
     console.log("Stop!!");
 }
+console.log("Beging!!");
 
 run();
+console.log("End!!");
